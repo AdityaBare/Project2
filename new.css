@@ -1,0 +1,58 @@
+*{
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.spot{
+  height: 100vh;
+  overflow-y: auto;
+  width: 100vw;
+  margin: auto;
+  border-radius: 0.5rem;
+}
+.bg{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/1024px-Taj_Mahal_%28Edited%29.jpeg);
+  height: 100vh;
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background-image 1s linear;
+  
+  
+
+
+}
+p{
+  
+  background-color: burlywood;
+  /* color: rgba(255, 255, 255, 0.855); */
+  width: 80%;
+  margin: auto;
+  margin-top: 1rem;
+  border-radius: 10px;
+  padding: 1rem;
+}
+h3{
+ 
+  /* display: inline-block; */
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.258);
+  color: white;
+  line-height: 3rem;
+  position: relative;
+  font-size: 2rem;
+  transform: skew(6deg);
+  margin-bottom: 100vh;
+  /* position: absolute; */
+}
+.spot:has(h3:top)~.bg{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Delhi_fort.jpg/1024px-Delhi_fort.jpg");
+
+
+}

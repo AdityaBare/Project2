@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="new.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:wght@100..900&family=Noto+Serif+Todhri&family=Oswald:wght@200..700&family=Playwrite+VN:wght@100..400&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="spot">
+        <div class="bg">
+            
+        </div>
+        
+        <div class="spot_1">
+            <p>Construction of the mausoleum was completed in 1648, but work continued on other phases of the project for another five years. The first ceremony held at the mausoleum was an observance by Shah Jahan, on 6 February 1643, of the 12th anniversary of the death of Mumtaz Mahal. The Taj Mahal complex is believed to have been completed in its entirety in 1653 at a cost estimated at the time to be around ₹5 million, which in 2023 would be approximately ₹35 billion (US$77.8 million).</p>
+            <p>The building complex incorporates the design traditions of Indo-Islamic and Mughal architecture. It employs symmetrical constructions with the usage of various shapes and symbols. While the mausoleum is constructed of white marble inlaid with semi-precious stones, red sandstone was used for other buildings in the complex similar to the Mughal era buildings of the time. The construction project employed more than 20,000 workers and artisans under the guidance of a board of architects led by Ustad Ahmad Lahori, the emperor's court architect.
+
+            </p>
+            <p>The Taj Mahal was designated as a UNESCO World Heritage Site in 1983 for being "the jewel of Islamic art in India and one of the universally admired masterpieces of the world's heritage". It is regarded as one of the best examples of Mughal architecture and a symbol of Indian history. The Taj Mahal is a major tourist attraction and attracts more than five million visitors a year. In 2007, it was declared a winner of the New 7 Wonders of the World initiative.</p>
+            <br> <br><br><br>
+            <h3>Taj Mahal</h3>
+
+        </div>
+        <div class="spot_2">
+            <p>The fort was plundered and stripped of its artwork and jewels during Nadir Shah's invasion of the Mughal Empire in 1739. Most of the fort's marble structures were subsequently demolished by the British following the Indian Rebellion of 1857. The fort's defensive walls were largely undamaged, and the fortress was subsequently used as a garrison.</p>
+            <p>On 15 August 1947, the first Prime Minister of India, Jawaharlal Nehru, raised the Indian flag above the Lahori Gate. On India's Independence Day, observed annually on 15 August, the Prime Minister ceremonially raises the Indian tricolour flag at the main gate of the historic fort and delivers a nationally broadcast address from its ramparts.
+            </p>
+            <p>The Red Fort, as part of the Red Fort Complex, was recognized as a UNESCO World Heritage Site in 2007.[1][2]</p>
+            <br> <br><br><br>
+            <h3>Red Fort</h3>
+        </div>
+    </div>
+    <script>
+        window.addEventListener("scroll", function () {
+  const h3 = document.querySelector("h3");
+  const bg = document.querySelector(".bg");
+
+  if (h3.getBoundingClientRect().top <= 0) {
+    bg.style.backgroundImage = 'url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Delhi_fort.jpg/1024px-Delhi_fort.jpg")';
+  } else {
+    bg.style.backgroundImage = 'url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/1024px-Taj_Mahal_%28Edited%29.jpeg")';
+  }
+});
+
+    </script>
+    
+</body>
+</html>
